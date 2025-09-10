@@ -10,14 +10,46 @@
 # my_list.insert(2, 99)
 # print(my_list)
 
-# print(my_list[1], my_list[3], my_list[5], my_list[7], my_list[9])
+# for my_list in range(0, 9, 2):
+#     print(my_list)
 
 
 # List examples
-my_dict = {"United States": "D.C.", "United Kingdom": "London", "France": "Paris", "Spain": "Madrid", "Portugal": "Lisbon"}
-print(my_dict["United Kingdom"])
-print(my_dict["United States"])
+# my_dict = {"United States": "D.C.", "United Kingdom": "London", "France": "Paris", "Spain": "Madrid", "Portugal": "Lisbon"}
+# print(my_dict["United Kingdom"])
+# print(my_dict["United States"])
 
-my_dict["Ireland"] = "Dublin"
-print(my_dict)
+# my_dict["Ireland"] = "Dublin"
+# print(my_dict)
+
+# my_dict["United States"] = "Land of the Drip"
+# print(my_dict)
+
+# for k, v in my_dict.items():
+#     print(k, v)
 # Dictionary Examples
+# fruits = {"apples", "oranges", "blueberries", "strawberries", "bananas"}
+# print(fruits)
+
+# fruits.add("pineapples")
+# fruits.remove("apples")
+# print(fruits)
+
+# friend_fruits = {"pineapples", "tomatos", "bananas", "oranges", "pears"}
+# print(fruits & friend_fruits)
+# print(fruits-friend_fruits)
+# print(fruits|friend_fruits)
+
+# sets
+colors = 'red', 'orange', 'yellow', 'green', 'blue'
+print(colors)
+
+print(colors[0])
+print(colors[4])
+
+for colors in colors:
+    print(colors)
+
+colors.__add__("violet")
+print(colors)
+# Tuples
