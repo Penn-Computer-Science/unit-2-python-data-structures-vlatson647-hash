@@ -1,15 +1,29 @@
-gradebook = {"Ryan": "94, 87, 81", "Mary": "81, 76, 89", "Kyle": "19, 23, 11"}
+grades_ryan = {}
+
+grades_ryan["Ryan"] = ["23", "24", "76"]
+print(grades_ryan)
+
+grades_mary = {}
+
+grades_mary["Mary"] = ["34", "56", "12"]
+print(grades_mary)
+
+grades_jim = {}
+
+grades_jim["Jim"] = ["90", "87", "8"]
+print(grades_jim)
+
+user_dict ={}
 
 user_student = input(print("What's the name of the student you'd like to add to your gradebook? "))
 print(user_student)
-gradebook
 
-user_grade = input(print("What grades will this student have?"))
+
+user_grade = input(print("What 3 grades will this student have?"))
 print(user_grade)
 
-gradebook[user_student] = user_grade
-print(gradebook)
-
+user_dict[user_student] = user_grade
+print(user_dict)
 
 
 
