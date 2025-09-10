@@ -41,15 +41,15 @@
 # print(fruits|friend_fruits)
 
 # sets
-colors = 'red', 'orange', 'yellow', 'green', 'blue'
-print(colors)
+# colors = 'red', 'orange', 'yellow', 'green', 'blue'
+# print(colors)
 
-print(colors[0])
-print(colors[4])
+# print(colors[0])
+# print(colors[4])
 
-for colors in colors:
-    print(colors)
+# for colors in colors:
+#     print(colors)
 
-colors.__add__("violet")
-print(colors)
+# colors.__add__("violet")
+# print(colors)
 # Tuples
