@@ -70,16 +70,16 @@ grade_remove = input(print("Select a key to remove a grade from Mary. "))
 del grades_mary[grade_remove]
 print(grades_mary)
 
-average_selector = input(print("Please select a student's average to calculate grade letter for average."))
+# average_selector = input(print("Please select a student's average to calculate grade letter for average."))
 
-if average_selector == range(100, 90):
-    print("A")
-elif average_selector == range(89, 80):
-    print("B")
-elif average_selector == range(79, 70):
-    print("C")
-elif average_selector == range(69, 60):
-    print("D")
-elif average_selector < (59):
-    print("F")
+# if average_selector == range(90, 100):
+#     print("A")
+# elif average_selector == range(80, 89):
+#     print("B")
+# elif average_selector == range(70, 79):
+#     print("C")
+# elif average_selector == range(60, 69):
+#     print("D")
+# elif average_selector <= (59):
+#     print("F")
 #change
