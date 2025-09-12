@@ -15,16 +15,19 @@ print(grades_jim)
 
 user_dict ={}
 
-user_key1 = input(print("What's the name of the keys you'd like to add to your gradebook? "))
+user_key1 = input(print("What's the name of the first key you'd like to add to your gradebook? "))
 print(user_key1)
-user_grade1 = int(input("Input a number for grades"))
-user_key2 = input(print("What's the name of the keys you'd like to add to your gradebook? "))
+user_grade1 = int(input("Input your first number for grades"))
+user_key2 = input(print("What's the name of the second key you'd like to add to your gradebook? "))
 print(user_key2)
-user_key3 = input(print("What's the name of the keys you'd like to add to your gradebook? "))
+user_grade2 = int(input("Input your second number for grades"))
+user_key3 = input(print("What's the name of the last key you'd like to add to your gradebook? "))
 print(user_key3)
+user_grade3 = int(input("Input your last number for grades"))
 
-user_grade = input(print("What 3 grades will this student have?"))
-print(user_grade)
+user_dict[user_key1] = user_grade1
+user_dict[user_key2] = user_grade2
+user_dict[user_key3] = user_grade3
 
 
 #change
