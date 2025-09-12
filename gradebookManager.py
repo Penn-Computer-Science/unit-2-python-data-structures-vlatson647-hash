@@ -1,14 +1,16 @@
 
 grades_ryan = {"ryan1": "23", "ryan2": "76", "ryan3": "78"}
-print(grades_ryan)
+# print(grades_ryan)
 
 grades_mary = {"mary1": "87", "mary2": "90", "mary3": "34"}
-print(grades_mary)
+# print(grades_mary)
 
 grades_jim = {"jim1": "93", "jim2": "56", "jim3": "88"}
-print(grades_jim)
+# print(grades_jim)
 
 user_dict ={}
+student_name = input(print("What is your student's name?:  "))
+# print(student_name)
 
 user_key1 = input(print("What's the name of the first key you'd like to add to your gradebook?:   "))
 #print(user_key1)
@@ -29,20 +31,38 @@ uSum = 0
 for v in user_dict.values():
     uSum=  uSum +int(v)
     counter+=1
-print("Your student's grades are: " + user_dict.values())    
+print(user_dict.values())    
 counter = 0
 uRyan = 0
 for v in grades_ryan.values():
     uRyan= uRyan +int(v)
     counter+=1
-print("Ryan's grades are: " + grades_ryan.values())
-#values_ryan = grades_ryan.values()
-#sum_ryan = sum(values_ryan)
-#numvalues_ryan = len(values_ryan)
+print(grades_ryan.values())
+
+counter = 0
+uMary = 0
+for v in grades_mary.values():
+    uMary= uMary +int(v)
+    counter+=1
+print(grades_mary.values())
+
+counter = 0
+uJim = 0
+for v in grades_jim.values():
+    uJim= uJim +int(v)
+    counter+=1
+print(grades_jim.values())
+
 average_user = uSum/counter
-print(average_user)
+print(student_name + "'s grade average is: " + str(average_user))
 
 average_ryan = uRyan/counter
-print(average_ryan)
+print("Ryan's grade average is: " + str(average_ryan))
+
+average_mary = uMary/counter
+print("Mary's grade average is: " + str(average_mary))
+
+average_jim = uJim/counter
+print("Jim's grade average is: " + str(average_jim))
 
 #change
