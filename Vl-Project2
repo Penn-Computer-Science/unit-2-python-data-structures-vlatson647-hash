@@ -28,6 +28,7 @@
 # for k, v in my_dict.items():
 #     print(k, v)
 # Dictionary Examples
+
 # fruits = {"apples", "oranges", "blueberries", "strawberries", "bananas"}
 # print(fruits)
 
