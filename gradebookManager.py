@@ -77,5 +77,20 @@ grade_remove = input(print("Select a key to remove a grade from Mary. "))
 del grades_mary[grade_remove]
 print(grades_mary)
 
+print("Ryan's letter grade is and F")
+print("Mary's letter grade is a C-")
+print("Jim's letter grade is a C+")
 
+if average_user == 100:
+    print(str(student_name) + "'s is an A+")
+if average_user > 90 and average_user < 100:
+    print(str(student_name) + "'s is an A")
+if average_user > 80 and average_user < 89:
+    print(str(student_name) + "'s is an B")
+if average_user > 70 and average_user < 79:
+    print(str(student_name) + "'s is an C")
+if average_user > 60 and average_user < 69:
+    print(str(student_name) + "'s is an D")
+if average_user < 59:
+    print(str(student_name) + "'s is an F")
 # change
