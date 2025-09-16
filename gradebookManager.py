@@ -1,3 +1,4 @@
+average_grades = []
 
 grades_ryan = {"ryan1": "23", "ryan2": "76", "ryan3": "78"}
 # print(grades_ryan)
@@ -55,31 +56,26 @@ print(grades_jim.values())
 
 average_user = uSum/counter
 print(student_name + "'s grade average is: " + str(average_user))
+average_grades.append(average_user)
 
 average_ryan = uRyan/counter
 print("Ryan's grade average is: " + str(average_ryan))
+average_grades.append(average_ryan)
 
 average_mary = uMary/counter
 print("Mary's grade average is: " + str(average_mary))
+average_grades.append(average_mary)
 
 average_jim = uJim/counter
 print("Jim's grade average is: " + str(average_jim))
+average_grades.append(average_jim)
 
+average_grades.sort(reverse=False)
+print("Your students average grades ordered " + str(average_grades))
 
 grade_remove = input(print("Select a key to remove a grade from Mary. "))
 del grades_mary[grade_remove]
 print(grades_mary)
 
-# average_selector = input(print("Please select a student's average to calculate grade letter for average."))
 
-# if average_selector == range(90, 100):
-#     print("A")
-# elif average_selector == range(80, 89):
-#     print("B")
-# elif average_selector == range(70, 79):
-#     print("C")
-# elif average_selector == range(60, 69):
-#     print("D")
-# elif average_selector <= (59):
-#     print("F")
-#change
+# change
