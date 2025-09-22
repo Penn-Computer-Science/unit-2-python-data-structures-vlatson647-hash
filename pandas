@@ -18,5 +18,6 @@ df = pd.DataFrame(
 )
 
 print(df)
+priint(df.describe())
 
 
