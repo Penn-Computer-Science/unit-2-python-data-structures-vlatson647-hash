@@ -49,3 +49,6 @@ print(pennData[pennData['GPA']>3.5])
 print("-_"*20)
 print("First Student Data") 
 print(pennData.iloc[0] )
+
+
+pennData.groupby("Year")["GPA"].mean()
