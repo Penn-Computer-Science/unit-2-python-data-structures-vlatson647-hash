@@ -1,6 +1,6 @@
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as ply
+import matplotlib.pyplot as plt
 import random
 
 # load our data frame
@@ -53,5 +53,14 @@ print(pennData.iloc[0] )
 
 print(pennData.groupby("Year")["GPA"].mean())
 
-pennData.groupby("Year")["GPA"].mean().plot(kind="bar")
-ply.show()
+pennData.groupby("Year")["GPA"].mean().plot(kind="bar", color="red")
+plt.title("average GPA per year")
+plt.xlabel("Year")
+plt.ylabel("GPA")
+plt.show()
+
+pennData["GPA"].plot(kind="hist", bins=5)
+plt.title("GPA Distribution")
+plt.xlabel("GPA")
+plt.ylabel("Number of Students")
+plt.show()
