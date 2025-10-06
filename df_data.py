@@ -51,4 +51,7 @@ print("First Student Data")
 print(pennData.iloc[0] )
 
 
-pennData.groupby("Year")["GPA"].mean()
+print(pennData.groupby("Year")["GPA"].mean())
+
+pennData.groupby("Year")["GPA"].mean().plot(kind="bar")
+ply.show()
