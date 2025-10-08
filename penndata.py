@@ -1,5 +1,6 @@
 import pandas as pd
 import random
+import matplotlib.pyplot as plt
 
 fNames = ["Richard", "Lucian", "Van", "Kyle", "Andrew", "Jack", "Danica", "Emma", "Amy", "Rosanne", "Scott", "Johnathan", "Eli", "Jill", "Jose"]
 lNames = ["Smith", "Larson", "Jones", "Furgeson", "Campbell", "Wilson", "Garcia", "Curtis", "Roosevelt", "Thompson", "Watson", "Anderson", "Foster", "Davey", "MacDonald"]
